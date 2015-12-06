@@ -6,7 +6,7 @@ To install it, run
 
     go get https://github.com/metakeule/mkkit
 
-Or use the binary for linux64: 
+Or use the binary for linux64: https://github.com/metakeule/mkkit/releases/download/v0.1/mkkit
 
 `mkkit` expects a folder with samples of the filetype wav.
 It creates a sample kit that includes all wav sound files inside the working directory / given folder.
