@@ -34,7 +34,7 @@ var (
 		config.Default(false))
 
 	relArg = args.NewFloat32("rel",
-		"release time of sample, if < 0: infinite",
+		"release time of sample, if < 0: infinite (note off events are ignored and sample is always played until its end)",
 		config.Default(float32(0.1)))
 
 	fixedPitchArg = args.NewBool("fixed",
